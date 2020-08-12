@@ -47,7 +47,7 @@ const ADD_UMBRELLA_BACKGROUND = (callback) => {
 };
 
 const ADD_IMGAGE_BACKGROUND = () => {
-    const IMAGE = 'url(https://service-0gp4lzwr-1258883657.bj.apigw.tencentcs.com/release/cloud/fodi/?file=/wed use/mmexport1597130617066.jpg)'
+    const IMAGE = 'url(//s2.azz.net/img/1200/2020/07/08/12/14004_de1ed1f6c1.jpg)'
     const DIV = document.createElement('div');
     DIV.style.background = IMAGE;
     DIV.style.pointerEvents = 'none';
