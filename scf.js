@@ -47,7 +47,7 @@ const ADD_UMBRELLA_BACKGROUND = (callback) => {
 };
 
 const ADD_IMGAGE_BACKGROUND = () => {
-    const IMAGE = 'url(//s2.azz.net/img/1200/2020/07/08/12/14004_de1ed1f6c1.jpg)'
+    const IMAGE = 'url(https://random.52ecy.cn/randbg.php)'
     const DIV = document.createElement('div');
     DIV.style.background = IMAGE;
     DIV.style.pointerEvents = 'none';
