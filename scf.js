@@ -38,6 +38,7 @@ const FONT_PINGYONG = HEREDOC(() => {/*
 
 // 雨伞背景
 const ADD_UMBRELLA_BACKGROUND = (callback) => {
+    SCRIPT.src = '//s0.pstatp.com/cdn/expire-1-M/canvas-nest.js/2.0.4/canvas-nest.js';
     const SCRIPT = document.createElement('script');
     SCRIPT.opacity = '0.1';
     SCRIPT.count = '10';
@@ -46,7 +47,6 @@ const ADD_UMBRELLA_BACKGROUND = (callback) => {
 };
 
 const ADD_IMGAGE_BACKGROUND = () => {
-    const IMAGE = 'url(https://random.52ecy.cn/randbg.php)'
     const DIV = document.createElement('div');
     DIV.style.background = IMAGE;
     DIV.style.pointerEvents = 'none';
