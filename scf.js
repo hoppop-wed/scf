@@ -47,7 +47,7 @@ const ADD_UMBRELLA_BACKGROUND = (callback) => {
 };
 
 const ADD_IMGAGE_BACKGROUND = () => {
-    const IMAGE = 'url(/)'
+    const IMAGE = 'url(https://api.dongmanxingkong.com/suijitupian/acg/1080p/index.php)'
     const DIV = document.createElement('div');
     DIV.style.background = IMAGE;
     DIV.style.pointerEvents = 'none';
